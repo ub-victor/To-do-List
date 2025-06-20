@@ -52,5 +52,7 @@ p {
      justify-content: space-around;
     border-radius: 2rem;
     background: var(--white);
-    padding: 50%;
+    padding: 3rem;
+    height: 50%;
+    width: 60%;
 }
