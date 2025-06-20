@@ -1,4 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
+    background: grey;
+    display: flex;
+    flex-direction: column;
 }
