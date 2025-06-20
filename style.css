@@ -1,9 +1,14 @@
+:root {
+    --gradient: linear-gradient(180deg, rgba(45, 112, 1253, 0.73) 0%, #163e92 100%);
+};
+
+
 body {
     margin: 0;
     height: 100vh;
-    background: grey;
+    background: var(--gradient);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*Here spaced out with even space between the two main  part which are the section and the footer */
     align-items: center;
 }
