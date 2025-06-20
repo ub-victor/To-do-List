@@ -49,5 +49,8 @@ p {
 .todo{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+     justify-content: space-around;
+    border-radius: 2rem;
+    background: var(--white);
+    padding: 50%;
 }
