@@ -65,3 +65,17 @@ h2 {
     color: var(--dark);
     text-align: center;
 }
+
+input {
+    position: relative;
+    display: flex;
+} {
+
+}
+
+.input-field {
+    width: 100%;
+    border: 0.06rem solid #2d70fd;
+    border-radius: 0.5rem;
+}
+ 
