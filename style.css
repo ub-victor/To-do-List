@@ -79,5 +79,12 @@ h2 {
     padding: 1.25rem;
 }
 
+input[type='text']::placeholder {
+    color: var(--grey);
+}
 
+.todo-container {
+    display: flex;
+    gap: 1rem;
+}
  
