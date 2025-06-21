@@ -105,7 +105,12 @@ li {
     color: #8f98a8;
 }
 
-.disable {
+.disabled {
     display: flex;
     text-decoration: line-through;
+}
+
+input[type="checkbox"]::before{
+    content: "\2713";
+    display: inline-block;
 }
