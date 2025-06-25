@@ -183,9 +183,9 @@ input[type="checkbox"]::before::after{
     width: 0.6rem;
 }
 .scroll ::-webkit-scrollbar-thumb {
-    background-color: v ar(--blu  e )
+    background-color: var(--blue);
 }
 
-.scroll ::-webkit-scrollbar-thumb {
-    background-color: v ar(--blu  e )
+.scroll ::-webkit-scrollbar-track{
+    display: none;
 }
