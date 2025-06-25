@@ -83,6 +83,12 @@ input[type='text']::placeholder {
     color: var(--grey);
 }
 
+.input-field:focus {
+    outline: none;
+    border-color: #054adf;
+    box-shadow: 0 0 0.5rem rgba(8, 51, 146, 0.5);
+}
+
 .todo-container {
     display: flex;
     gap: 1rem;
