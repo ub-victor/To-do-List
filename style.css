@@ -166,4 +166,14 @@ input[type="checkbox"]::before::after{
 .made-by, 
 .author {
     font-size: 0.9rem;
+    color: var(--grey-dark);
+}
+
+.author {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.scroll {
+    height: 15rem;
 }
