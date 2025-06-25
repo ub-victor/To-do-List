@@ -122,4 +122,48 @@ input[type="checkbox"]::before{
     color: transparent;
 
 } 
-/* 48h */
+
+
+input[type="checkbox"]::before::after{
+    color: var(--white);
+    background-color: var(--green);
+    border: 0.06rem solid var(--green);
+    border-radius: 50%;
+
+} 
+
+.counter {
+    border: 0.06rem solid var(--grey-light);
+
+}
+
+.counter-containe{
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--grey);
+}
+
+.counter-containe p{
+    align-self: center;
+}
+
+.counter-containe button {
+    border: none;
+    background-color: transparent;
+    color: var(--grey);
+    font-size: 1rem;
+}
+
+.footer{
+    display: flex;
+    gap: 1.8rem;
+    background-color: var(--white);
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.made-by, 
+.author {
+    font-size: 0.9rem;
+}
