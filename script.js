@@ -11,3 +11,12 @@ const deleteButton = document.getElementById('deleteButton');
 
 
 // Initialize our project
+
+document.addEventListener("DOMContentLoaded", function(){
+    addButton.addEventListener('click', addTast);
+})
+
+function addTast(){
+    //some logic here
+    
+}
