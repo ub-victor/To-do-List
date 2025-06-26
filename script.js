@@ -4,5 +4,6 @@
 let todo = JSON.parse(localStorage.getItem("todo")) || [];
 
 const todoInput = document.getElementById("todoInput");
-
-console.log(todoInput)
+const todoList = document.getElementById('todoList')
+const todoCount = document.getElementById('todoCount')
+const addButton = document.querySelector('.btn')
