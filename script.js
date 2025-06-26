@@ -46,6 +46,8 @@ function displayTasks(){
     todoList.innerHTML = ""; // Clear the list before displaying tasks
     todo.forEach((item, index) => {
         const p = document.createElement('p');
+        p.innerHTML = `
+        <div></div>`      
     });
 }
 
