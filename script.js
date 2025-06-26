@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(){
     todoInput.addEventListener('keydown', function(event){
         if(event.key  == 'Enter'){
             event.preventDefault() // to evoid the page to get reload the the user touch Enter
-            addTask
+            addTask();
         }
     });
     deleteButton.addEventListener('click', deleteAllTasks());
