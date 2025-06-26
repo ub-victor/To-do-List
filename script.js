@@ -47,7 +47,10 @@ function displayTasks(){
     todo.forEach((item, index) => {
         const p = document.createElement('p');
         p.innerHTML = `
-        <div></div>`      
+                        <div class="todo-container">
+                            <input type="checkbox" class="todo-checkbox" id="input-${index}" ${item.disabled ? 'disabled' : ''}>
+                        </div>
+        `      
     });
 }
 
