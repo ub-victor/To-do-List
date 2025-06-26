@@ -13,7 +13,7 @@ const deleteButton = document.getElementById('deleteButton');
 // Initialize our project
 
 document.addEventListener("DOMContentLoaded", function(){
-    addButton.addEventListener('click', addTast);
+    addButton.addEventListener('click', addTask);
     todoInput.addEventListener('keydown', function(event){
         if(event.key  == 'Enter'){
             event.preventDefault() // to evoid the page to get reload the the user touch Enter
@@ -42,6 +42,6 @@ function displayTasks(){
 
 }
 
-function saveToLocalStorage();{
-    
+function saveToLocalStorage(){
+    localStorage.setItem("todo", JSON.stringify(todo));
 }
