@@ -43,7 +43,10 @@ function deleteAllTasks(){
 }
 
 function displayTasks(){
-
+    todoList.innerHTML = ""; // Clear the list before displaying tasks
+    todo.forEach(element => {
+        
+    });
 }
 
 function saveToLocalStorage(){
