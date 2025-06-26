@@ -17,13 +17,25 @@ document.addEventListener("DOMContentLoaded", function(){
     todoInput.addEventListener('keydown', function(event){
         if(event.key  == 'Enter'){
             event.preventDefault() // to evoid the page to get reload the the user touch Enter
-            addTast
+            addTask
         }
     });
     deleteButton.addEventListener('click', deleteAllTask());
+    displayTasks(){
+
+    }
 })
 
-function addTast(){
+function addTask(){
     //some logic here
+    const newTask  = todoInput.value.trim(){
+        if (newTask !== ""){
+            
+        }
+    }
+
+}
+
+function displayTasks(){
 
 }
