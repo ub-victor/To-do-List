@@ -41,3 +41,7 @@ function addTask(){
 function displayTasks(){
 
 }
+
+function saveToLocalStorage();{
+    
+}
