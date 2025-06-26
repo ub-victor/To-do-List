@@ -49,7 +49,7 @@ function displayTasks(){
         p.innerHTML = `
                         <div class="todo-container">
                             <input type="checkbox" class="todo-checkbox" id="input-${index}" ${item.disabled ? 'disabled' : ''}>
-                            <p></p>
+                            <p id="todo-${index}" class="${item.disabled ? 'disabled' : ''}" onclick="editTask(${index})">${item.text}</p>
                         </div>
         `      
     });
