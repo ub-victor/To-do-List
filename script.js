@@ -44,8 +44,8 @@ function deleteAllTasks(){
 
 function displayTasks(){
     todoList.innerHTML = ""; // Clear the list before displaying tasks
-    todo.forEach(element => {
-        
+    todo.forEach((item, index) => {
+        const p = document.createElement('p');
     });
 }
 
