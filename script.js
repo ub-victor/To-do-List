@@ -14,7 +14,13 @@ const deleteButton = document.getElementById('deleteButton');
 
 document.addEventListener("DOMContentLoaded", function(){
     addButton.addEventListener('click', addTast);
-    todoInput.addEventListener('keydown', function(event))
+    todoInput.addEventListener('keydown', function(event){
+        if(event.key  == 'Enter'){
+            event.preventDefault() // to evoid the page to get reload the the user touch Enter
+            addTast
+        }
+    });
+    deleteButton.addEventListener('click', deleteAllTask());
 })
 
 function addTast(){
