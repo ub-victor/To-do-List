@@ -3,3 +3,6 @@
 // parse Converts a JavaScript Object Notation (JSON) string into an object.
 let todo = JSON.parse(localStorage.getItem("todo")) || [];
 
+const todoInput = document.getElementById("todoInput");
+
+console.log(todoInput)
