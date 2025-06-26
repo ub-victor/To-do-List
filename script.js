@@ -20,17 +20,17 @@ document.addEventListener("DOMContentLoaded", function(){
             addTask
         }
     });
-    deleteButton.addEventListener('click', deleteAllTask());
-    displayTasks(){
-
-    }
+    deleteButton.addEventListener('click', deleteAllTasks());
+    displayTasks()
 })
 
-function addTask(){
+function addTasks(){
     //some logic here
     const newTask  = todoInput.value.trim(){
         if (newTask !== ""){
-            
+            todo.push{
+                text: newTask, desabled: false;
+            }
         }
     }
 
