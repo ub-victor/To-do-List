@@ -24,14 +24,16 @@ document.addEventListener("DOMContentLoaded", function(){
     displayTasks();
 })
 
-function addTasks(){
+function addTask(){
     //some logic here
-    const newTask  = todoInput.value.trim(){
-        if (newTask !== ""){
-            todo.push{
-                text: newTask, desabled: false;
-            }
-        }
+    const newTask  = todoInput.value.trim()
+    if (newTask !== ""){
+        todo.push({
+            text: newTask, disabled: false,
+        });
+        saveToLocalStorage();
+        todoInput.value = ""; // Clear the input field after adding the task
+        displayTasks();
     }
 
 }
