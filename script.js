@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", function(){
     displayTasks();
 })
 
+function deleteAllTasks(){
+    
+}
+
 function addTask(){
     //some logic here
     const newTask  = todoInput.value.trim()
