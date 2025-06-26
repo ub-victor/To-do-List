@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){
             addTask();
         }
     });
-    deleteButton.addEventListener('click', deleteAllTasks());
+    deleteButton.addEventListener('click', deleteAllTasks);
     displayTasks();
 })
 
