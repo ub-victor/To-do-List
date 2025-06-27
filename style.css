@@ -109,7 +109,7 @@ li {
 
 #todoList p {
    display: flex;
-   gap: 4.0rem;
+   gap: 1rem;
    color: var(--dark);
    align-items: center;
 }
