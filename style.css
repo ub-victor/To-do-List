@@ -193,14 +193,14 @@ input[type="checkbox"]:checked::before{
     scrollbar-width: thin;
 }
 
-.scroll ::-webkit-scrollbar {
+.scroll::-webkit-scrollbar {
     width: 0.6rem;
 }
-.scroll ::-webkit-scrollbar-thumb {
+.scroll::-webkit-scrollbar-thumb {
     background-color: var(--blue); /* the color of the scrollbar and the thumb is the draggable part of the scrollbar */
     border-radius: 0.5rem; /* the thumb is rounded */
 }
 
-.scroll ::-webkit-scrollbar-track { 
+.scroll::-webkit-scrollbar-track { 
     display: none; /* the track is hidden and a track is the background of the scrollbar */
 }
