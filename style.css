@@ -107,9 +107,9 @@ li {
     padding: 1.3rem;
 }
 
-#todoList p {
+#todoList p { 
    display: flex;
-   gap: 1rem;
+   gap: 1rem; /* This is the gap between the checkbox and the text */
    color: var(--dark);
    align-items: center;
 }
@@ -124,7 +124,7 @@ li {
 }
 
 input[type="checkbox"]{
-    appearance: none;
+    appearance: none;  /* Removes the browser's default checkbox styling */
     --webkit-appearance: none;
     --moz-appearance: none;
     cursor: pointer;
