@@ -111,6 +111,10 @@ li {
     color: #8f98a8;
 }
 
+#todoList p {
+    color: #8f98a8;
+}
+
 .disabled {
     display: flex;
     text-decoration: line-through;
