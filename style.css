@@ -216,6 +216,9 @@ input[type="checkbox"]:checked::before{
 .scroll::-webkit-scrollbar {
     width: 0.6rem;
 }
+
+/* This styles the draggable part of the scrollbar (the thumb) */
+
 .scroll::-webkit-scrollbar-thumb {
     background-color: var(--blue); /* the color of the scrollbar and the thumb is the draggable part of the scrollbar */
     border-radius: 0.5rem; /* the thumb is rounded */
