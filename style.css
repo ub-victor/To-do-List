@@ -203,6 +203,9 @@ input[type="checkbox"]:checked::before{
     font-weight: bold;
 }
 
+
+/* This class styles the scrollable container */
+
 .scroll {
     height: 15rem;
     scrollbar-width: thin;
