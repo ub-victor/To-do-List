@@ -194,5 +194,5 @@ input[type="checkbox"]::before::after{
 }
 
 .scroll ::-webkit-scrollbar-track { 
-    display: none; /* the track is hidden anda a track is the background of the scrollbar */
+    display: none; /* the track is hidden and a track is the background of the scrollbar */
 }
