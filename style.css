@@ -116,6 +116,14 @@ li {
     text-decoration: line-through;
 }
 
+input[type="checkbox"]{
+    appearance: none;
+    --webkit-appearance: none;
+    --moz-appearance: none;
+    cursor: pointer;
+
+}
+
 input[type="checkbox"]::before{
     content: "\2713";
     display: inline-block;
