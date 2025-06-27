@@ -138,7 +138,7 @@ input[type="checkbox"]::before{
 } 
 
 
-input[type="checkbox"]:before::after{
+input[type="checkbox"]:checked::before{
     color: var(--white);
     background-color: var(--green);
     border: 0.06rem solid var(--green);
