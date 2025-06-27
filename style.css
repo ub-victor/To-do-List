@@ -111,7 +111,7 @@ li {
     color: #8f98a8;
 }
 
-#todoList p {
+#todoList .disabled {
     color: #8f98a8;
 }
 
