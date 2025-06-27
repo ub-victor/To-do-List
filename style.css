@@ -125,7 +125,7 @@ input[type="checkbox"]{
 }
 
 input[type="checkbox"]::before{
-    content: "\2713";
+    content: "\2713"; /* This is the checkmark symbol which looks like a tick*/
     display: inline-block;
     width: 2rem;
     height: 2rem;
