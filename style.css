@@ -208,7 +208,7 @@ input[type="checkbox"]:checked::before{
 
 .scroll {
     height: 15rem;
-    scrollbar-width: thin;
+    scrollbar-width: thin; /*For Firefox: makes the scrollbar thinner than the default */
 }
 
 .scroll::-webkit-scrollbar {
