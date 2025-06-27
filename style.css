@@ -148,10 +148,15 @@ input[type="checkbox"]::before{
 } 
 
 /* Styling when the checkbox is checked */
+/* Because the checkbox always has a ::before element.
+When the checkbox is not checked
+Without the :checked::before part → your checkbox stays in its "empty" state forever. */
+
+
 input[type="checkbox"]:checked::before{
     color: var(--white); /* Makes the checkmark visible in white */
     background-color: var(--green);
-    border: 0.06rem solid var(--green);
+    border: 0.06rem solid var(--grey-border);
     border-radius: 50%;
 
 } 
