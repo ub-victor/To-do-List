@@ -55,6 +55,7 @@ function displayTasks(){
         p.querySelector(".todo-checkbox").addEventListener('change', ()=>{
             toggleTask(index);
         });
+        todoList.appendChild(p);
     });
 }
 
