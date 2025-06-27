@@ -29,7 +29,7 @@ function addTask(){
     const newTask  = todoInput.value.trim()
     if (newTask !== ""){
         todo.push({
-            text: newTask, disabled: true,
+            text: newTask, disabled: true, 
         });
         saveToLocalStorage();
         todoInput.value = ""; // Clear the input field after adding the task
