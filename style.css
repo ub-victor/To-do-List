@@ -149,7 +149,7 @@ input[type="checkbox"]::before{
 
 /* Styling when the checkbox is checked */
 input[type="checkbox"]:checked::before{
-    color: var(--white);
+    color: var(--white); /* Makes the checkmark visible in white */
     background-color: var(--green);
     border: 0.06rem solid var(--green);
     border-radius: 50%;
