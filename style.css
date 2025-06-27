@@ -131,6 +131,8 @@ input[type="checkbox"]{
 
 }
 
+
+/* Styling the custom checkbox appearance using the ::before pseudo-element */
 input[type="checkbox"]::before{
     content: "\2713"; /* This is the checkmark symbol which looks like a tick*/
     display: inline-block;
